@@ -1,0 +1,205 @@
+<nav class="... md:sticky  top-0">
+    <div class="absolute inset-y-0 right-0 felx flex-col md:pt-6">
+        <!-- <div class="text-yellow-300">
+            <a href="#" class="hover:bg-yellow-300 border border-[#ffb400] text-white text-center rounded-full px-[0.5rem] pb-1 h-10 w-10 inline-flex items-center text-4xl">                          
+                <mat-icon class="text-lg">wb_sunny</mat-icon>                 
+            </a>                                   
+    </div> -->
+        <button (click)="call()" data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar"
+            aria-controls="default-sidebar" type="button"
+            class="inline-flex items-center z-50 p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-[#ffb400] ">
+            <span class="sr-only">Open sidebar</span>
+            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path clip-rule="evenodd" fill-rule="evenodd"
+                    d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
+                </path>
+            </svg>
+        </button>
+
+        <!-- <div>
+            <ul>
+                <li class="px-10">
+                    <a href="#"
+                        class="hover:bg-yellow-300 border border-[#ffb400] text-white text-center rounded-full px-[0.5rem] pb-1 h-10 w-10 inline-flex items-center text-4xl">
+                        <mat-icon class="text-lg">wb_sunny</mat-icon>
+                    </a>
+                    
+                </li>
+            </ul>
+        </div> -->
+        <div class=" md:pt-20 hidden w-full md:block hidden md:w-auto">
+
+            <!-- <ul class="space-y-4">
+                <li class="px-10">
+                    <a href="" data-tooltip-target="tooltip-left-home" data-tooltip-placement="left"
+                        class="hover:bg-yellow-300 border border-[#ffb400] text-white text-center rounded-full px-[0.5rem] pb-1 h-10 w-10 inline-flex items-center text-4xl">
+                        <mat-icon class="text-lg">home</mat-icon>
+                    </a>
+                    <div id="tooltip-left-home" role="tooltip"
+                        class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-[#ffb400] rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                        Home
+                        <div class="tooltip-arrow" data-popper-arrow></div>
+                    </div>
+
+                </li>
+                <li class="px-10">
+                    <a href="/about" data-tooltip-target="tooltip-left-about" data-tooltip-placement="left"
+                        class="hover:bg-yellow-300 border border-[#ffb400] text-white text-center rounded-full px-[0.5rem] pb-1 h-10 w-10 inline-flex items-center text-4xl">
+                        <mat-icon class="text-lg">person</mat-icon>
+                    </a>
+                    <div id="tooltip-left-about" role="tooltip"
+                        class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-[#ffb400] rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                        About
+                        <div class="tooltip-arrow" data-popper-arrow></div>
+                    </div>
+                </li>
+                <li class="px-10">
+                    <a href="/portfolio" data-tooltip-target="tooltip-left-portfolio" data-tooltip-placement="left"
+                        class="hover:bg-yellow-300 border border-[#ffb400] text-white text-center rounded-full px-[0.5rem] pb-1 h-10 w-10 inline-flex items-center text-4xl">
+                        <mat-icon class="text-lg">business_center</mat-icon>
+                    </a>
+                    <div id="tooltip-left-portfolio" role="tooltip"
+                        class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-[#ffb400] rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                        Portfolio
+                        <div class="tooltip-arrow" data-popper-arrow></div>
+                    </div>
+                </li>
+                <li class="px-10">
+                    <a href="/contact" data-tooltip-target="tooltip-left-contact" data-tooltip-placement="left"
+                        class="hover:bg-yellow-300 border border-[#ffb400] text-white text-center rounded-full px-[0.5rem] pb-1 h-10 w-10 inline-flex items-center text-4xl">
+                        <mat-icon class="text-lg">phone</mat-icon>
+                    </a>
+                    <div id="tooltip-left-contact" role="tooltip"
+                        class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-[#ffb400] rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                        Contact
+                        <div class="tooltip-arrow" data-popper-arrow></div>
+                    </div>
+                </li>
+                <li class="px-10">
+                    <a href="#" data-tooltip-target="tooltip-left-blog" data-tooltip-placement="left"
+                        class="hover:bg-yellow-300 border border-[#ffb400] text-white text-center rounded-full px-[0.5rem] pb-1 h-10 w-10 inline-flex items-center text-4xl">
+                        <mat-icon class="text-lg">wb_sunny</mat-icon>
+                    </a>
+                    <div id="tooltip-left-blog" role="tooltip"
+                        class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-[#ffb400] rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                        Blog
+                        <div class="tooltip-arrow" data-popper-arrow></div>
+                    </div>
+                </li>
+            </ul> -->
+            <div class="w-screen  md:w-auto text-yellow-300" id="navbar-default">
+                <ul
+                    class="font-medium  flex flex-row flex-wrap space-y-4 md:flex-col md:p-4 md:p-0 md:mt-4 border border-gray-100 rounded-lg bg-black md:flex-col md:space-y-4 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent">
+                    <li class="px-10">
+                        <a href="" data-tooltip-target="tooltip-left-home" data-tooltip-placement="left"
+                            class="hover:bg-yellow-300 border border-[#ffb400] text-white text-center rounded-full px-[0.5rem] pb-1 h-10 w-10 inline-flex items-center text-4xl">
+                            <mat-icon class="text-lg">home</mat-icon>
+                        </a>
+                        <div id="tooltip-left-home" role="tooltip"
+                            class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-[#ffb400] rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                            Home
+                            <div class="tooltip-arrow" data-popper-arrow></div>
+                        </div>
+                    </li>
+                    <li class="px-10">
+                        <a href="/about" data-tooltip-target="tooltip-left-about" data-tooltip-placement="left"
+                            class="hover:bg-yellow-300 border border-[#ffb400] text-white text-center rounded-full px-[0.5rem] pb-1 h-10 w-10 inline-flex items-center text-4xl">
+                            <mat-icon class="text-lg">person</mat-icon>
+                        </a>
+                        <div id="tooltip-left-about" role="tooltip"
+                            class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-[#ffb400] rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                            About
+                            <div class="tooltip-arrow" data-popper-arrow></div>
+                        </div>
+                    </li>
+                    <li class="px-10">
+                        <a href="/portfolio" data-tooltip-target="tooltip-left-portfolio" data-tooltip-placement="left"
+                            class="hover:bg-yellow-300 border border-[#ffb400] text-white text-center rounded-full px-[0.5rem] pb-1 h-10 w-10 inline-flex items-center text-4xl">
+                            <mat-icon class="text-lg">business_center</mat-icon>
+                        </a>
+                        <div id="tooltip-left-portfolio" role="tooltip"
+                            class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-[#ffb400] rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                            Portfolio
+                            <div class="tooltip-arrow" data-popper-arrow></div>
+                        </div>
+                    </li>
+                    <li class="px-10">
+                        <a href="/contact" data-tooltip-target="tooltip-left-contact" data-tooltip-placement="left"
+                            class="hover:bg-yellow-300 border border-[#ffb400] text-white text-center rounded-full px-[0.5rem] pb-1 h-10 w-10 inline-flex items-center text-4xl">
+                            <mat-icon class="text-lg">phone</mat-icon>
+                        </a>
+                        <div id="tooltip-left-contact" role="tooltip"
+                            class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-[#ffb400] rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                            Contact
+                            <div class="tooltip-arrow" data-popper-arrow></div>
+                        </div>
+                    </li>
+                    <!-- <li class="px-10">
+                        <a href="#" data-tooltip-target="tooltip-left-blog" data-tooltip-placement="left"
+                            class="hover:bg-yellow-300 border border-[#ffb400] text-white text-center rounded-full px-[0.5rem] pb-1 h-10 w-10 inline-flex items-center text-4xl">
+                            <mat-icon class="text-lg">wb_sunny</mat-icon>
+                        </a>
+                        <div id="tooltip-left-blog" role="tooltip"
+                            class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white bg-[#ffb400] rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                            Blog
+                            <div class="tooltip-arrow" data-popper-arrow></div>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+
+
+        <aside id="default-sidebar"
+            class="fixed top-0 left-0 z-50 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 block md:hidden"
+            aria-label="Sidenav">
+            <div class="overflow-y-auto py-5 px-3 h-full bg-[#111111] border-r border-[#ffb400]">
+                <ul class="space-y-2">
+                    <li>
+                        <a href="#"
+                            class="flex items-center p-2 text-xl font-semibold text-gray-900 rounded-lg  bg-[#ffb400] group">
+                            <span class="flex item-center" style="height: 30px; width: 30px;"><mat-icon
+                                    style="height: 30px; width: 30px;" class="text-3xl">home</mat-icon></span>
+                            <span class="px-2 pt-1">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/about"
+                            class="flex items-center p-2 text-xl font-semibold text-gray-900 rounded-lg  bg-[#ffb400] group">
+                            <span class="flex item-center" style="height: 30px; width: 30px;"><mat-icon
+                                    style="height: 30px; width: 30px;" class="text-3xl">person</mat-icon></span>
+                            <span class="px-2 pt-1">About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/portfolio"
+                            class="flex items-center p-2 text-xl font-semibold text-gray-900 rounded-lg  bg-[#ffb400] group">
+                            <span class="flex item-center" style="height: 30px; width: 30px;"><mat-icon
+                                    style="height: 30px; width: 30px;"
+                                    class="text-3xl">business_center</mat-icon></span>
+                            <span class="px-2 pt-1">Portfolio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/contact"
+                            class="flex items-center p-2 text-xl font-semibold text-gray-900 rounded-lg  bg-[#ffb400] group">
+                            <span class="flex item-center" style="height: 30px; width: 30px;"><mat-icon
+                                    style="height: 30px; width: 30px;" class="text-3xl">phone</mat-icon></span>
+                            <span class="px-2 pt-1">Contact</span>
+                        </a>
+                    </li>
+                    <!-- <li>
+                        <a href="#"
+                            class="flex items-center p-2 text-xl font-semibold text-gray-900 rounded-lg  bg-[#ffb400] group">
+                            <span class="flex item-center" style="height: 30px; width: 30px;"><mat-icon class="text-lg">wb_sunny</mat-icon></span>
+                            <span class="px-2 pt-1">Blog</span>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+        </aside>
+
+
+    </div>
+</nav>

@@ -1,0 +1,87 @@
+<div class="aboutbg  w-full flex flex-col overflow-y-auto">
+    <div class="relative flex justify-center item-center m-16">
+        <div class="absolute p-6 font-black">
+            <h2 style="font-family: Poppins;" class=" text-white text-5xl ">GET IN<span style="font-family: Poppins;"
+                    class="text-[#ffb400]">&nbsp;TOUCH</span></h2>
+        </div>
+        <div class="absolute">
+            <h2 style="font-family: Poppins;opacity: 0.15;" class="font-black text-white text-8xl text-[#ffffff12]">
+                CONTACT</h2>
+        </div>
+    </div>
+    <div class="flex flex-row  text-white pt-20 text-sm gap-[8rem] justify-center">
+        <div class="">
+
+            <div class="flex flex-row flex-wrap justify-center item-center gap-8 ">
+                <div class="w-[20rem]">
+                    <h2 class="text-[1.5rem] font-semibold">DON'T BE SHY !</h2><br>
+                    <ul class="space-y-4">
+                        <li>
+                            <span class="font-sans text-sm">Feel free to get in touch with me. I am always open to
+                                discussing new projects, creative ideas or opportunities to be part of your
+                                visions.</span>
+                        </li>
+                        <li class="flex flex-row gap-2">
+                            <div class="text-3xl">
+                                <mat-icon class="text-[#ffb400] text-large"> email</mat-icon>
+                            </div>
+                            <div class="flex flex-col justify-center item-center font-bold">
+                                <div>
+                                    {{email}}
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="flex flex-row gap-2">
+                            <div class="text-3xl">
+                                <mat-icon class="text-[#ffb400] text-large"> phone</mat-icon>
+                            </div>
+                            <div class="flex flex-col justify-center item-center font-bold">
+                                <div>
+                                    +91 9879880033
+                                </div>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="flex flex-col justify-center item-center">
+                    <form class="max-w-sm mx-auto flex flex-col justify-center item-center">
+                        <div class="flex flex-row flex-wrap justify-center item-center gap-2">
+                            <div class="mb-5">
+                                <input type="text" id="email"
+                                    class="bg-[#ffffff12]  text-white text-sm rounded-full focus:ring-[#ffb400] focus:border-[#ffb400] w-40 p-2 pl-4 "
+                                    placeholder="Your Name" required />
+                            </div>
+                            <div class="mb-5 ">
+                                <input type="email" id="email"
+                                    class="bg-[#ffffff12]   text-white text-sm rounded-full focus:ring-[#ffb400] focus:border-[#ffb400]   w-40 p-2 pl-4 "
+                                    placeholder="Your Email" required />
+                            </div>
+                            <div class="mb-5">
+                                <input type="text" id="email"
+                                    class="bg-[#ffffff12]  text-white text-sm rounded-full focus:ring-[#ffb400] focus:border-[#ffb400] w-40 p-2 pl-4 "
+                                    placeholder="Your Subject" required>
+                            </div>
+                        </div>
+                        <div class="flex item-center justify-center">
+                            <textarea id="message" rows="6"
+                                class=" text-sm text-white bg-[#ffffff12] focus:ring-[#ffb400] md:w-[33rem] w-[20rem] p-2 pl-4 focus:border-[#ffb400] rounded-2xl "
+                                placeholder="Your Message"></textarea>
+                        </div>
+                    </form>
+                    <div class="flex justify-center item-center">
+                        <button type="button" class="w-48 mt-6 text-white hover:text-white border border-[#ffb400] hover:bg-[#ffb400] 
+                    focus:ring-4 focus:outline-none focus:ring-[#ffb400] font-medium rounded-lg text-sm px-5 py-2.5 
+                    text-center me-2 mb-2 dark:border-[#ffb400] dark:text-white 
+                    dark:hover:text-white dark:hover:bg-[#ffb400] dark:focus:ring-[#ffb400]">Send Mail</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
