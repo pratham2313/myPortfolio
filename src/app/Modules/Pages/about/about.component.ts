@@ -23,5 +23,15 @@ export class AboutComponent {
     link.click();
     link.remove();
   }
+  downloadIntershipLetter(){
+    
+    const link = document.createElement('a');
+    link.setAttribute('target', '_blank');
+    link.setAttribute('href', 'assets/Internship Certificate - Samudra Technologies.pdf'); // Replace 'your-file.pdf' with the actual filename
+    link.setAttribute('download', 'Internship Certificate - Samudra Technologies.pdf'); // Specify the filename
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+  }
 
 }
